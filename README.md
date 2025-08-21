@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cien Mariposas</title>
+    <style>
+        /* Colores de la marca */
+        :root {
+            --lavanda: #B9A1D8;
+            --celeste: #A1D8E1;
+            --rosa-pastel: #F3C4D3;
+            --amarillo: #F6E27F;
+            --turquesa: #4FD1C5;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background: var(--lavanda);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background: var(--celeste);
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section:nth-child(even) {
+            background-color: var(--rosa-pastel);
+        }
+        h2 {
+            color: var(--lavanda);
+        }
+        .talleres div {
+            margin-bottom: 30px;
+        }
+        footer {
+            background: var(--turquesa);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: var(--amarillo);
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            background-color: var(--lavanda);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Cien Mariposas</h1>
+    <p>Despliega tus alas y transforma tu vida</p>
+</header>
+<nav>
+    <a href="#quienes">Quiénes somos</a>
+    <a href="#talleres">Talleres</a>
+    <a href="#valores">Valores</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+<section id="quienes">
+    <h2>Quiénes somos</h2>
+    <p>Cien Mariposas nace para acompañar procesos de transformación personal y colectiva a través del teatro social. Inspirados en la metáfora de la mariposa, ofrecemos talleres que combinan creatividad, expresión y desarrollo emocional. Cada participante tiene la oportunidad de descubrir su propio vuelo y fortalecer confianza, habilidades sociales y sentido de comunidad.</p>
+</section>
+<section id="talleres" class="talleres">
+    <h2>Talleres</h2>
+    <div>
+        <h3>Adultos – Teatro Social y Crecimiento</h3>
+        <p>Espacios para explorar emociones, mejorar la autoestima y fortalecer habilidades sociales mediante técnicas de teatro participativo y dinámicas de transformación.</p>
+    </div>
+    <div>
+        <h3>Niños y Jóvenes – Juego y Expresión</h3>
+        <p>Talleres lúdicos que incentivan la creatividad, el trabajo en equipo y la expresión corporal y emocional, promoviendo el crecimiento desde el juego y el arte.</p>
+    </div>
+    <div>
+        <h3>Empresas y Organizaciones – Cohesión y Liderazgo</h3>
+        <p>Propuestas para fortalecer la comunicación, la confianza y el liderazgo a través de dinámicas teatrales diseñadas para equipos de trabajo.</p>
+    </div>
+    <a href="#contacto" class="cta-button">Quiero participar</a>
+</section>
+<section id="valores">
+    <h2>Valores</h2>
+    <ul>
+        <li><strong>Empatía:</strong> Nos ponemos en el lugar del otro para crear espacios seguros y de respeto.</li>
+        <li><strong>Creatividad:</strong> Fomentamos la imaginación y la innovación en cada actividad.</li>
+        <li><strong>Colaboración:</strong> Creemos en el poder del trabajo colectivo para el crecimiento personal y grupal.</li>
+        <li><strong>Inclusión:</strong> Todos y todas son bienvenidos a desplegar sus alas.</li>
+        <li><strong>Confianza:</strong> Generamos ambientes donde cada persona se siente valorada y capaz.</li>
+    </ul>
+</section>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu email" required>
+        <textarea name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+<footer>
+    &copy; 2025 Cien Mariposas. Todos los derechos reservados.
+</footer>
+</body>
+</html>
